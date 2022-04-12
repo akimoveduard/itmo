@@ -1,0 +1,13 @@
+.footer__list-item {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__list-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

@@ -1,3 +1,23 @@
 .footer-grid {
   display: grid;
+  justify-content: space-between;
+  grid-template-columns: 270px 95px 95px 210px;
+  column-gap: 40px;
+}
+
+.footer-grid > * {
+  /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: minmax(200px, 2fr) minmax(80px, 1fr) minmax(80px, 1fr) minmax(200px, 2fr);
+    column-gap: 30px;
+  }  
+}
+
+@media screen and (max-width: 425px) {
+  .footer-grid {
+    grid-template-columns: minmax(140px, 1fr) minmax(140px, 1fr);
+  }  
 }

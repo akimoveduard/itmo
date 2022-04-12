@@ -1,0 +1,11 @@
+.footer-grid__logo {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+}
+
+@media screen and (max-width: 425px) {
+    .footer-grid__logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+}

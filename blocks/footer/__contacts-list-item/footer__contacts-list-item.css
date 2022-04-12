@@ -1,0 +1,15 @@
+.footer__contacts-list-item {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.footer__contacts-list-item:nth-of-type(3) {
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__contacts-list-item {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,17 @@
+.footer-grid__description {
+  grid-column: 1 / 2;
+  grid-row: 3 / 5;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-grid__description {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer-grid__description {
+    display: none;
+  }
+}
