@@ -1,0 +1,19 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/open-sans.css);
+
+/* PAGE */
+@import url(../blocks/page/page.css);
+
+/* SECTION */
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/_theme/section_theme_emerald.css);
+@import url(../blocks/section/_theme/section_theme_light-blue.css);
+@import url(../blocks/section/_theme/section_theme_dark-blue.css);
+
+/* MAIN */
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__paragraph/main__paragraph.css);
+
+/* ABOUT */
+@import url(../blocks/about/about.css);
