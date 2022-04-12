@@ -35,6 +35,9 @@
 @import url("../blocks/footer/__contacts-list/footer__contacts-list.css");
 @import url("../blocks/footer/__contacts-list-item/footer__contacts-list-item.css");
 
+@import url("../blocks/footer/__block/footer__block_logo.css");
+@import url("../blocks/footer/__block/footer__block_copyright.css");
+@import url("../blocks/footer/__block/footer__block_about.css");
 @import url("../blocks/footer/__block/footer__block_madeby.css");
 
 /* FOOTER-GRID */

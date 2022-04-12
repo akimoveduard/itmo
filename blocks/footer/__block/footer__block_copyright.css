@@ -1,0 +1,10 @@
+.footer__block_copyright {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__block_copyright {
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
+}

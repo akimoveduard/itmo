@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .footer__block_about {
+    margin-bottom: 40px;
+  }
+}

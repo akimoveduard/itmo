@@ -4,14 +4,14 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .footer-grid__copyright {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
   }  
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .footer-grid__copyright {
     grid-column: 2 / 3;
     grid-row: 1 / 2;

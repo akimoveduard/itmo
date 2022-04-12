@@ -3,7 +3,7 @@
   grid-row: 1 / 2;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .footer-grid__logo {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
