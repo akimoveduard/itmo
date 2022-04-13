@@ -1,0 +1,9 @@
+.footer__block_address {
+  margin-bottom: 65px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__block_address {
+    margin-bottom: 20px;
+  }
+}

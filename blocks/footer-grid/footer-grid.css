@@ -5,10 +5,6 @@
   column-gap: 40px;
 }
 
-.footer-grid > * {
-  /*border: 1px solid red;*/
-}
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .footer-grid {
     grid-template-columns: minmax(200px, 2fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(200px, 2fr);

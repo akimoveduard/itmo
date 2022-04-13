@@ -1,3 +1,9 @@
 .footer__block_madeby {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__block_madeby {
+    text-align: center;
+  }
+}
