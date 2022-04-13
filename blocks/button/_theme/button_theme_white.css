@@ -1,0 +1,10 @@
+.button_theme_white {
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.button_theme_white:hover {
+  border: 1px solid #e0f0ff;
+  color: #e0f0ff;
+}

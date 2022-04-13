@@ -1,0 +1,39 @@
+.main {
+  position: relative;
+  background-color: #001337;
+  z-index: 3;
+}
+
+.main::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/main-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+  background-position: -10em 80%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    background-origin: border-box;
+    background-position: 0% 0% 0% 70%;
+  }
+
+  .main::before {
+    background-position: -30em 80%;
+    transform: scale(-1, 1)
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main::before {
+    background-position: -30em -4em;
+  }
+}

@@ -7,6 +7,10 @@
 /* LINK */
 @import url("../blocks/link/link.css");
 
+/* BUTTON */
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_theme/button_theme_white.css");
+
 /* SECTION */
 @import url("../blocks/section/section.css");
 @import url("../blocks/section/__title/section__title.css");
@@ -27,8 +31,17 @@
 @import url("../blocks/header/__menu-list-link/header__menu-list-link.css");
 
 /* MAIN */
+@import url("../blocks/main/main.css");
 @import url("../blocks/main/__title/main__title.css");
 @import url("../blocks/main/__paragraph/main__paragraph.css");
+
+/* HERO */
+@import url("../blocks/hero/hero.css");
+@import url("../blocks/hero/__content/hero__content.css");
+@import url("../blocks/hero/__title/hero__title.css");
+@import url("../blocks/hero/__title/_lighter/hero__title_lighter.css");
+@import url("../blocks/hero/__subtitle/hero__subtitle.css");
+@import url("../blocks/hero/__button/hero__button.css");
 
 /* ABOUT */
 @import url("../blocks/about/about.css");

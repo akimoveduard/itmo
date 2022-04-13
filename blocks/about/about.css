@@ -1,5 +1,7 @@
 .about {
+  position: relative;
   max-width: 1122px;
   margin: 0 auto;
   padding: 0 0 80px;
+  z-index: 5;
 }

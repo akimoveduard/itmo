@@ -1,0 +1,21 @@
+.hero__title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: 0.1px;
+  margin: 0 0 34px;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__title {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero__title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
