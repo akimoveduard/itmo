@@ -1,0 +1,17 @@
+.header__menu-list-link {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.1px;
+  width: 100px;
+  border-bottom: 2px solid #000D26;
+  padding: 12px 0;
+  white-space: nowrap;
+}
+
+.header__menu-list-link:hover {
+  border-bottom: 2px solid #009FAC;
+}

@@ -1,0 +1,19 @@
+.logo_locate_header {
+  width: 150px;
+  height: 54px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo_locate_header {
+    width: 95px;
+    height: 32px;
+    margin: 0 85px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo_locate_header {
+    width: 71px;
+    height: 24px;
+  }
+}

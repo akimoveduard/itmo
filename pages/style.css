@@ -16,7 +16,15 @@
 
 /* LOGO */
 @import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/_locate/logo_locate_header.css");
 @import url("../blocks/logo/_locate/logo_locate_footer.css");
+
+/* HEADER */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__container/header__container.css");
+@import url("../blocks/header/__menu-list/header__menu-list.css");
+@import url("../blocks/header/__menu-item/header__menu-item.css");
+@import url("../blocks/header/__menu-list-link/header__menu-list-link.css");
 
 /* MAIN */
 @import url("../blocks/main/__title/main__title.css");

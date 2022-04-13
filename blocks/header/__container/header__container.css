@@ -1,0 +1,26 @@
+.header__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 13px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1090px) {
+  .header__container {
+    flex-direction: column;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .header__container {
+    padding: 14px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__container {
+    padding: 10px 0;
+  }
+}
