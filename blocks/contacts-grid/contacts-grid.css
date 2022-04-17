@@ -1,0 +1,32 @@
+.contacts-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, minmax(210px, 350px));
+  grid-template-rows: repeat(2, minmax(44px, 60px)) 77px;
+  gap: 20px 29px;
+  grid-template-areas:
+  'name surname message'
+  'phone email message'
+  '. button .';
+}
+
+@media screen and (max-width: 768px) {
+  .contacts-grid {
+    grid-template-rows: repeat(2, 44px) 61px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts-grid {
+    grid-template-columns: minmax(210px, 350px);
+    grid-template-rows: repeat(4, 44px) 140px 61px;
+    gap: 12px;
+    grid-template-areas:
+      'name'
+      'surname'
+      'phone'
+      'email'
+      'message'
+      'button';
+  }
+}

@@ -1,0 +1,26 @@
+.form__input {
+  border-radius: 10px;
+  border: none;
+  margin: 0;
+  padding: 19px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #009FAC;
+  outline: 0;
+}
+
+.form__input::placeholder {
+  color: #009FAC;
+}
+
+@media screen and (max-width: 768px) {
+  .form__input {
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 11px 12px;
+  }
+}
+

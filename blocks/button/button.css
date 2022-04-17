@@ -9,7 +9,8 @@
   text-align: center;
   cursor: pointer;
   text-decoration: none;
-  padding: 16px;
+  padding: 15px 16px;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 425px) {

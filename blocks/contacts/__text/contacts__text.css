@@ -1,0 +1,16 @@
+.contacts__text {
+  max-width: 919px;
+  margin: 7px auto 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts__text {
+    margin: 7px auto 37px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contacts__text {
+    margin: 23px auto 23px;
+  }
+}

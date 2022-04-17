@@ -1,13 +1,11 @@
 .section {
+  position: relative;
   padding: 0 39px;
+  z-index: 5;
 }
 
 @media screen and (max-width: 425px) {
   .section {
     padding: 0 16px;
   }
-}
-
-.section > * {
-  /*border: 1px solid;*/
 }

@@ -16,24 +16,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: content-box;
-  background-position: -10em 80%;
+  background-position: -10em -10em;
   z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
-  .main {
-    background-origin: border-box;
-    background-position: 0% 0% 0% 70%;
-  }
-
   .main::before {
-    background-position: -30em 80%;
+    background-position: -30em -5em;
     transform: scale(-1, 1)
   }
 }
 
 @media screen and (max-width: 425px) {
   .main::before {
-    background-position: -30em -4em;
+    background-position: -30em -2em;
   }
 }
