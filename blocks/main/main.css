@@ -14,7 +14,7 @@
   height: 100%;
   background-image: url("../../images/main-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-origin: content-box;
   background-position: -10em -10em;
   z-index: 1;
@@ -22,13 +22,14 @@
 
 @media screen and (max-width: 1024px) {
   .main::before {
-    background-position: -30em -5em;
+    background-position: -10em -10em;
     transform: scale(-1, 1)
   }
 }
 
 @media screen and (max-width: 425px) {
   .main::before {
-    background-position: -30em -2em;
+    background-position: 0em 0em;
+    background-size: 500px;
   }
 }

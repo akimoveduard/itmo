@@ -1,0 +1,16 @@
+.education__text {
+  max-width: 920px;
+  margin: 0 auto 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .education__text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .education__text {
+    margin-bottom: 20px;
+  }
+}

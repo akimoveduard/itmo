@@ -1,0 +1,13 @@
+.education__card {
+  padding: 30px 30px 35px;
+  display: grid;
+  grid-template-columns: minmax(340px, 635px) minmax(280px, 445px);
+  grid-column-gap: 30px;
+}
+
+@media screen and (max-width: 425px) {
+  .education__card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
