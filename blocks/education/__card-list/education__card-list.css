@@ -1,0 +1,17 @@
+.education__card-list {
+  list-style-type: '\2022';
+  margin: 0 0 30px;
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .education__card-list {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .education__card-list {
+    margin-bottom: 12px;
+  }
+}

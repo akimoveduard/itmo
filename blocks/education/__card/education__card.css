@@ -5,7 +5,13 @@
   grid-column-gap: 30px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+  .education__card {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .education__card {
     display: flex;
     flex-direction: column-reverse;

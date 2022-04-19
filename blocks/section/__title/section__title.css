@@ -6,6 +6,6 @@
 
 @media screen and (max-width: 425px) {
   .section__title {
-    margin: 0;
+    margin-bottom: 20px;
   }
 }

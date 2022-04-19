@@ -1,21 +1,19 @@
-.education__card-header {
-  font-weight: 600;
+.education__card-list-item {
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
-  margin: 0;
-  padding: 0 0 30px;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 1024px) {
-  .education__card-header {
+  .education__card-list-item {
     font-size: 14px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .education__card-header {
+  .education__card-list-item {
     font-size: 12px;
     line-height: 16px;
   }
