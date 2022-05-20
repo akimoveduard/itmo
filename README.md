@@ -12,7 +12,7 @@
 
 Изначально это была добровольная групповая работа, которую я решил сверстать самостоятельно с нуля, чтобы разобраться в интересных и непонятных для себя моментах:
 - как подключить и настроить сторонний [слайдер](https://swiperjs.com);
-- как решить множество проблем для корректной адаптивной верстки.
+- как решить множество проблем в адаптивной верстке.
 
 ## Технологии
 <p><img src="https://img.shields.io/badge/html5-%23E34F26.svg" height="24" alt="HTML5"> <img src="https://img.shields.io/badge/css3-%231572B6.svg" height="24" alt="CSS3"> <img src="https://img.shields.io/badge/javascript-%23323330.svg" height="24" alt="JavaScript"> <img src="https://img.shields.io/badge/git-%23F05033.svg" height="24" alt="Git"> <img src="https://img.shields.io/badge/github-%23121011.svg" height="24" alt="GitHub"></p>
